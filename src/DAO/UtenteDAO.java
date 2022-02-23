@@ -24,6 +24,9 @@ public class UtenteDAO implements IUtenteDAO {
         return instance;
     }
 
+
+    prova;
+
     @Override
     public IUtente findById(String email) {
         String sql = "SELECT * FROM ekea.user WHERE user.email='" + email + "';";
